@@ -1,5 +1,11 @@
 # react-embedly
 
+## Install
+
+```
+npm i -D react-embedly
+```
+
 ## Usage
 
 ```
@@ -9,6 +15,6 @@ import Embedly from 'react-embedly';
 
 ReactDOM.render(
   <Embedly url="an url you want to embed" apiKey="your embedly api key" />, 
-  document.getElementById('app')
+  document.getElementById('content')
 );
 ```

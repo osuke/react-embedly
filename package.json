@@ -1,12 +1,22 @@
 {
   "name": "react-embedly",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "A React component to embed web pages by Embedly api",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir lib",
     "example": "webpack"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "embed",
+    "embedly"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OsukeUesugi/react-embedly.git"
   },
   "author": "osuke",
   "license": "MIT",
@@ -23,5 +33,9 @@
     "react-dom": "^15.0.2",
     "superagent": "^1.8.3",
     "webpack": "^1.13.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/OsukeUesugi/react-embedly/issues"
+  },
+  "homepage": "https://github.com/OsukeUesugi/react-embedly"
 }
