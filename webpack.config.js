@@ -1,9 +1,7 @@
 module.exports = {
-  //entry: "./src/index.jsx",
   entry: "./example/src/index.jsx",
   output: {
     path: './example/js',
-    //filename: 'index.js'
     filename: 'index.js'
   },
   module: {
