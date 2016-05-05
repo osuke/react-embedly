@@ -1,6 +1,6 @@
 {
   "name": "react-embedly",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A React component to embed web pages by Embedly api",
   "main": "./lib/index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "embed",
     "embedly"
   ],
+  "files": [
+    "lib"
+  ]
   "repository": {
     "type": "git",
     "url": "https://github.com/OsukeUesugi/react-embedly.git"
