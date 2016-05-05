@@ -1,6 +1,6 @@
 {
   "name": "react-embedly",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A React component to embed web pages by Embedly api",
   "main": "./lib/index.js",
   "scripts": {
@@ -23,9 +23,6 @@
   },
   "author": "osuke",
   "license": "MIT",
-  "dependencies": {
-    "superagent": "^1.8.3"
-  },
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
@@ -34,8 +31,10 @@
     "babel-preset-stage-0": "^6.5.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "superagent": "^1.8.3",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "superagent": "^1.8.3"
   },
   "bugs": {
     "url": "https://github.com/OsukeUesugi/react-embedly/issues"
